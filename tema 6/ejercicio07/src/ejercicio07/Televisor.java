@@ -51,6 +51,7 @@ public class Televisor implements ControlRemoto{
     public void encender(){
         if (encencido == false) {
             encencido = true;
+            System.out.println(getCanal());
         }
     }
     @Override

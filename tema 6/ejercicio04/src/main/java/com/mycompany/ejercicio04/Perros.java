@@ -35,7 +35,7 @@ public class Perros extends Canidos {
     //sobre escibimos los metodos abstractos 
     @Override
     public String toString() {
-        return super.toString() + setSonido() + setAlimentacion() + setHabitat() +setNombreCientifico();
+        return super.toString() +"\n"+ setSonido() +"\n"+ setAlimentacion() +"\n"+ setHabitat() +"\n"+setNombreCientifico();
     }
     
 }

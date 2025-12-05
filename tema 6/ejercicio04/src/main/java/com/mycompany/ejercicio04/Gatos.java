@@ -34,9 +34,8 @@ public class Gatos extends Felinos {
         return "Su nombre cientifico es: Felis silvestris catus.";
     }
 
-    @Override
     public String toString() {
-        return super.toString() + setSonido() + setAlimentacion() + setHabitat() +setNombreCientifico();
+        return super.toString() +"\n"+ setSonido() +"\n"+ setAlimentacion() +"\n"+ setHabitat() +"\n"+setNombreCientifico();
     }
     
 }
